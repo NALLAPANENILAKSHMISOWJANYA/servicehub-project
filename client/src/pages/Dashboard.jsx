@@ -92,55 +92,6 @@ const Dashboard = () => {
           ))}
         </div>
       )}
-      {/* Promotional Banners */}
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-12">Offers & discounts</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-        {/* Banner 1: Spa */}
-        <div className="rounded-2xl overflow-hidden relative h-[220px] bg-[#8B9D3B] flex cursor-pointer hover:shadow-lg transition-shadow">
-          <div className="p-6 flex flex-col justify-center w-3/5 z-10">
-            <h3 className="text-2xl font-bold text-white mb-2 leading-tight">Relax & rejuvenate<br/>at home</h3>
-            <p className="text-white/90 text-sm mb-6">Spa for women</p>
-            <button className="bg-white/20 hover:bg-white/30 text-white font-bold py-2 px-4 rounded-lg w-fit transition-colors">
-              Book now
-            </button>
-          </div>
-          <div className="absolute right-0 bottom-0 w-1/2 h-full">
-            <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&q=80" alt="Spa" className="w-full h-full object-cover rounded-tl-[40px] opacity-90" />
-          </div>
-        </div>
-
-        {/* Banner 2: RO Purifier */}
-        <div className="rounded-2xl overflow-hidden relative h-[220px] bg-black flex cursor-pointer hover:shadow-lg transition-shadow">
-          <div className="absolute top-0 left-4 bg-green-700 text-white text-xs font-bold px-3 py-1 rounded-b-md">
-            Up to ₹3,500 off
-          </div>
-          <div className="p-6 flex flex-col justify-center w-full z-10 mt-4">
-            <div className="text-white font-black tracking-widest text-xs mb-2">NATIVE</div>
-            <h3 className="text-2xl font-bold text-white mb-1">RO Water Purifier</h3>
-            <p className="text-gray-400 text-sm mb-4">Needs no service for 2 years</p>
-            <button className="bg-white/20 hover:bg-white/30 text-white font-bold py-2 px-4 rounded-lg w-fit transition-colors border border-gray-600">
-              Buy now
-            </button>
-          </div>
-          <div className="absolute right-0 bottom-0 w-2/5 h-4/5">
-            <img src="https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=400&q=80" alt="RO" className="w-full h-full object-contain" />
-          </div>
-        </div>
-
-        {/* Banner 3: Home repairs */}
-        <div className="rounded-2xl overflow-hidden relative h-[220px] bg-[#0070C0] flex cursor-pointer hover:shadow-lg transition-shadow">
-          <div className="p-6 flex flex-col justify-center w-3/5 z-10">
-            <h3 className="text-2xl font-bold text-white mb-2 leading-tight">Home repairs at<br/>affordable prices</h3>
-            <p className="text-white/90 text-sm mb-6">Electricians, plumbers, carpenters</p>
-            <button className="bg-white/20 hover:bg-white/30 text-white font-bold py-2 px-4 rounded-lg w-fit transition-colors">
-              Book now
-            </button>
-          </div>
-          <div className="absolute right-0 bottom-0 w-1/2 h-full">
-            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&q=80" alt="Repairs" className="w-full h-full object-cover opacity-90" />
-          </div>
-        </div>
-      </div>
 
       {/* Available Services Grid */}
       <div className="mt-12 mb-8 flex justify-between items-end">
